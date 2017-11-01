@@ -18,5 +18,4 @@
     <ListBoxItem>Friday</ListBoxItem>
     <ListBoxItem>Saturday</ListBoxItem>
   </ListBox>
-  
 </StackPanel>
