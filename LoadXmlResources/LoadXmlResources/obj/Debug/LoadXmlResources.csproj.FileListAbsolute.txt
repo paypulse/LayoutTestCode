@@ -1,8 +1,7 @@
-D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.csprojResolveAssemblyReference.cache
-D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.csproj.CoreCompileInputs.cache
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\bin\Debug\LoadXmlResources.exe.config
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\bin\Debug\LoadXmlResources.exe
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\bin\Debug\LoadXmlResources.pdb
+D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.g.resources
+D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.csproj.CoreCompileInputs.cache
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.exe
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.pdb
-D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.g.resources

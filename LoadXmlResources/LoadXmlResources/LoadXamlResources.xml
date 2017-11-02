@@ -1,21 +1,26 @@
-﻿<StackPanel xmlns ="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-  <Button Name="MyButton"
-          HorizontalAlignment ="Center"
-          Margin="24">Hello, XAML!! </Button>
-  <Ellipse Width="200"
-           Height="100"
-           Margin="24"
-           Stroke="Red"
-           StrokeThickness="10" />
-  <ListBox Width="100" 
-           Height="100"
-           Margin="24">
-    <ListBoxItem>Sunday</ListBoxItem>
-    <ListBoxItem>Monday</ListBoxItem>
-    <ListBoxItem>Tuesday</ListBoxItem>
-    <ListBoxItem>Wednesday</ListBoxItem>
-    <ListBoxItem>Thursday</ListBoxItem>
-    <ListBoxItem>Friday</ListBoxItem>
-    <ListBoxItem>Saturday</ListBoxItem>
-  </ListBox>
-</StackPanel>
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="PayPulse" d:DesignWidth="728.095" Width="1024" UseLayoutRounding="True" MaxWidth="1024" MaxHeight="768" Height="768">
+  <Grid Margin="0,0,2,0" MaxWidth="1024" MaxHeight="758" MinWidth="0" MinHeight="0">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto"/>
+      <ColumnDefinition Width="11*"/>
+      <ColumnDefinition Width="569*"/>
+      <ColumnDefinition Width="287*"/>
+    </Grid.ColumnDefinitions>
+    <Rectangle Grid.ColumnSpan="3" Fill="#FF6F6FE8" HorizontalAlignment="Left" Height="737" Stroke="Black" VerticalAlignment="Top" Width="145" StrokeThickness="0"/>
+    <Button Content="Port" Grid.Column="1" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="117" Height="50" Background="#FF6F6FE8" BorderThickness="0,0,0,1" FontSize="30" Grid.ColumnSpan="2"/>
+    <ListBox Grid.Column="2" HorizontalAlignment="Left" Height="345" Margin="182,115,0,0" VerticalAlignment="Top" Width="200"/>
+    <TextBlock Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="182,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" TextAlignment="Center" Foreground="#FF1D1C1C" Background="#FFC2C2F0">
+      <Run FontSize="18" Text="사용 가능한 port 목록"/>
+      <LineBreak/>
+      <Run/>
+    </TextBlock>
+    <Button Grid.ColumnSpan="2" Content="Open" Grid.Column="2" HorizontalAlignment="Left" Height="55" Margin="572,185,0,0" VerticalAlignment="Top" Width="265" BorderThickness="0"/>
+    <Button Grid.ColumnSpan="2" Content="close" Grid.Column="2" HorizontalAlignment="Left" Height="55" Margin="572,270,0,0" VerticalAlignment="Top" Width="265" BorderThickness="0"/>
+
+  </Grid>
+</Window>
