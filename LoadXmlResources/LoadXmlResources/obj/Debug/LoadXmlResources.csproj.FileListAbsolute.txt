@@ -5,3 +5,4 @@ D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.g
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.csproj.CoreCompileInputs.cache
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.exe
 D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.pdb
+D:\LayoutTestCode\LoadXmlResources\LoadXmlResources\obj\Debug\LoadXmlResources.csprojResolveAssemblyReference.cache
